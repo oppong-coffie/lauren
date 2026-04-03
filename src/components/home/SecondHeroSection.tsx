@@ -1,7 +1,6 @@
 import hero2 from "../../assets/images/hero2.jpg"
 import nanama3 from "../../assets/images/nanama3.jpg"
 import nanama2 from "../../assets/images/nanama2.jpg"
-import nanama from "../../assets/images/nanama.jpg"
 
 export default function SecondHeroSection() {
   return (

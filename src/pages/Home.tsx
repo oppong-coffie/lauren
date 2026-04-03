@@ -7,7 +7,6 @@ import Why from '../components/home/Why'
 import Recognition from '../components/home/Recognition'
 import LaurenWomen from '../components/home/LaurenWomen'
 import BrandIntro from '../components/home/BrandIntro'
-import TestimonialCarousel from '../components/home/TestimonialCarousel'
 import NewsletterSignup from '../components/home/NewsletterSignup'
 
 export default function Home() {

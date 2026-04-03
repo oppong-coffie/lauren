@@ -1,7 +1,4 @@
 import marcImg from '../../assets/images/about/about3.jpg'
-import sophieImg from '../../assets/images/about/sophie.png'
-import jeanImg from '../../assets/images/about/jean.png'
-import craftImg from '../../assets/images/about/craft.png'
 import { Share2 } from 'lucide-react'
 
 export default function TeamGrid() {
