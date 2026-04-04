@@ -1,4 +1,4 @@
-import designerImg from '../../assets/images/press/amaki.png'
+import designerImg from '../../assets/images/press/lauren.jpg'
 import logoImg from '../../assets/images/press/logo.png'
 import { Globe, Phone, Star } from 'lucide-react'
 

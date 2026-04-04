@@ -93,8 +93,14 @@ export default function Header() {
         </div>
       </div>
 
+      {/* Mobile Menu Backdrop */}
+      <div 
+        className={`fixed inset-0 bg-black/40 backdrop-blur-sm z-[45] transition-opacity duration-500 lg:hidden ${isMenuOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'}`}
+        onClick={() => setIsMenuOpen(false)}
+      ></div>
+
       {/* Mobile Menu Overlay */}
-      <div className={`fixed inset-0 bg-white z-[100] transition-transform duration-500 lg:hidden overflow-y-auto h-[100dvh] ${isMenuOpen ? 'translate-x-0' : 'translate-x-full'}`}>
+      <div className={`fixed top-0 left-0 w-full bg-white z-[100] transition-transform duration-500 lg:hidden overflow-y-auto h-[70dvh] shadow-2xl border-b border-primary-green/10 ${isMenuOpen ? 'translate-y-0' : '-translate-y-full'}`}>
         <nav className="flex flex-col items-center pt-32 pb-16 h-auto gap-8">
           {navigation.map((item) => (
             <NavLink
