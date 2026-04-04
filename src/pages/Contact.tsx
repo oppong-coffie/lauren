@@ -1,7 +1,6 @@
 import ContactHero from '../components/contact/ContactHero'
 import ContactForm from '../components/contact/ContactForm'
 import ContactInfo from '../components/contact/ContactInfo'
-import MapSection from '../components/contact/MapSection'
 import SocialLinks from '../components/contact/SocialLinks'
 
 export default function Contact() {
