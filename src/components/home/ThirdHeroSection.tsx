@@ -14,10 +14,7 @@ export default function ThirdHeroSection() {
                 className="w-full h-full object-cover grayscale-[0.3] group-hover:grayscale-0 group-hover:scale-105 transition-all duration-1000 ease-out"
               />
             </div>
-            {/* Minimalist Overlay Details */}
-            <div className="absolute top-8 left-8 border border-white/40 px-6 py-2 backdrop-blur-sm">
-                <span className="text-[10px] text-white uppercase tracking-[0.4em] font-medium">Atelier Series 01</span>
-            </div>
+          
           </div>
           
           {/* Text Section - Right (md:45%) */}
