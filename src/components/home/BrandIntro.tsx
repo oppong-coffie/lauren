@@ -5,10 +5,10 @@ export default function BrandIntro() {
     <section className="bg-white mt-20">
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10 flex flex-col lg:flex-row items-center gap-20">
         <div className="lg:w-1/2" data-aos="fade-right">
-          <h2 className="text-4xl md:text-5xl font-serif text-primary-green leading-tight">About Lauren Haute Couture</h2>
+          <h2 className="text-4xl md:text-5xl font-serif text-primary-green leading-tight">About Berny Kay Stitches</h2>
           <div className="space-y-6 text-neutral-600 max-w-xl">
             <p className="text-lg leading-relaxed">
-              For over two decades, Lauren Haute Couture has been synonymous with exquisite design and impeccable craftsmanship. 
+              For over two decades, Berny Kay Stitches has been synonymous with exquisite design and impeccable craftsmanship. 
             </p>
             <p className="text-base leading-relaxed">
               Each garment is meticulously handcrafted using the finest materials from around the world, 

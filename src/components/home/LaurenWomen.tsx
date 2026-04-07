@@ -45,7 +45,7 @@ export default function LaurenWomen() {
         
         <div className="text-center mb-2" data-aos="fade-up">
           <span className="text-[10px] uppercase tracking-[0.6em] text-primary-green/60 font-bold mb-4 block">Our Community</span>
-          <h2 className="text-4xl md:text-5xl font-serif text-primary-green uppercase tracking-[0.2em] leading-tight mb-4">The Lauren Woman</h2>
+          <h2 className="text-4xl md:text-5xl font-serif text-primary-green uppercase tracking-[0.2em] leading-tight mb-4">The Bernykay Woman</h2>
           <p className="text-neutral-500 max-w-2xl mx-auto text-sm leading-relaxed tracking-wider font-light italic font-serif">
             "A celebration of self-expression, elegance, and the timeless power of the modern woman."
           </p>
@@ -86,7 +86,7 @@ export default function LaurenWomen() {
     to="/contact"
     className="relative inline-block px-14 py-5 text-[11px] uppercase tracking-[0.5em] font-bold text-white bg-primary-green overflow-hidden group transition-all duration-700 hover:-translate-y-1 hover:shadow-[0_20px_40px_rgba(4,66,44,0.3)]"
   >
-    <span className="relative z-10">Be a Lauren woman</span>
+    <span className="relative z-10">Be a Bernykay woman</span>
 
     {/* Hover background slide */}
     <span className="absolute inset-0 bg-secondary-green translate-y-full group-hover:translate-y-0 transition-transform duration-700 ease-out"></span>

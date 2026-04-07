@@ -1,4 +1,4 @@
-import designerImg from '../../assets/images/press/lauren.jpg'
+import designerImg from '../../assets/images/why2.jpeg'
 import logoImg from '../../assets/images/press/logo.png'
 import { Globe, Phone, Star } from 'lucide-react'
 
@@ -42,13 +42,13 @@ export default function Magazine() {
                   style={{ clipPath: 'polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%, 5% 50%)' }}
                 >
                   <Star size={16} className="text-white" />
-                  Lauren Hanson: The Visionary
+                  Bernice Arthur: The Visionary
                 </div>
               </div>
               
               <div className="space-y-4 text-sm leading-relaxed text-justify">
                 <p>
-                  For Lauren Hanson, Founder of Lauren Haute Couture, fashion is an art of identity and quiet power. 
+                  For Bernice Arthur, Founder of Lauren Haute Couture, fashion is an art of identity and quiet power. 
                   Her designs transcend clothing, becoming a language of elegance that empowers without overwhelming the wearer.
                 </p>
                 <p>
@@ -80,7 +80,7 @@ export default function Magazine() {
                 />
                 <div className="mt-4 text-center">
                   <p className="text-[11px] font-bold uppercase tracking-widest text-neutral-800">Lauren Hanson</p>
-                  <p className="text-[10px] italic text-neutral-400 mt-1">Founder, Lauren Haute Couture</p>
+                  <p className="text-[10px] italic text-neutral-400 mt-1">Founder, Bernice Arthur</p>
                 </div>
               </div>
             </div>

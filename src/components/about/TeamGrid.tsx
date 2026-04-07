@@ -1,9 +1,9 @@
-import marcImg from '../../assets/images/about/about3.jpg'
+import marcImg from '../../assets/images/why3.jpeg'
 import { Share2 } from 'lucide-react'
 
 export default function TeamGrid() {
   const team = [
-    { name: 'Lauren Hanson', role: 'Founder & Head of Design', img: marcImg, desc: 'Mastering the art of silhouettes 🎨' },
+    { name: 'Bernice Arthur', role: 'Founder & Head of Design', img: marcImg, desc: 'Mastering the art of silhouettes 🎨' },
     // { name: 'Sophie Moreau', role: 'Production Manager', img: sophieImg, desc: 'Ensuring artisanal precision 🛠️' },
     // { name: 'Jean Dupont', role: 'Master Craftsman', img: jeanImg, desc: 'Generations of tailoring mastery 🧵' },
     // { name: 'Alice Blanchard', role: 'Textile Expert', img: craftImg, desc: 'Sourcing the finest global fabrics 🌿' },

@@ -1,4 +1,4 @@
-import laurentImg from '../../assets/images/about/about2.jpg'
+import laurentImg from '../../assets/images/why3.jpeg'
 import { Palette, Feather, Award } from 'lucide-react'
 
 export default function DesignerProfile() {
@@ -27,7 +27,7 @@ export default function DesignerProfile() {
 
           <div className="lg:w-[55%] text-white" data-aos="fade-up" data-aos-delay="200">
             <h2 className="text-4xl md:text-6xl font-serif mb-6 leading-tight tracking-[0.05em]">
-              Meet Lauren <span className="italic font-light text-glow">Hanson</span>
+              Meet Bernice <span className="italic font-light text-glow">Arthur</span>
             </h2>
             <p className="text-secondary-green uppercase font-black tracking-[0.8em] text-[10px] md:text-sm mb-12 flex items-center gap-3">
                Founder & Creative Director <Award size={18} />

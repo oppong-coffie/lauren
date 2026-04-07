@@ -1,10 +1,12 @@
 import { useEffect, useState } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
+import logo from "../../assets/images/logo2.png"
 
 const navigation = [
   { label: 'Home', to: '/' },
   { label: 'Shop', to: '/shop' },
   { label: 'Press', to: '/press' },
+  { label: 'Training', to: '/training' },
   { label: 'About', to: '/about' },
   { label: 'Contact', to: '/contact' },
 ]
@@ -43,7 +45,7 @@ export default function Header() {
                   clipPath: "polygon(0 0, 90% 0, 100% 100%, 0% 100%)"
                 }}
               >
-                Lauren
+                Berny Kay
               </div>
 
               <div 
@@ -53,7 +55,7 @@ export default function Header() {
                   paddingRight: '16px'
                 }}
               >
-                Haute Couture
+                Stitches
               </div>
             </div>
           </Link>
@@ -76,8 +78,8 @@ export default function Header() {
 
         {/* Desktop Actions Right */}
         <div className="flex-1 flex items-center justify-end gap-6">
-          <button className="text-neutral-700 hover:text-primary-green transition-colors duration-300 lg:block hidden">
-            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <button className="hover:opacity-80 transition-opacity duration-300 lg:block hidden">
+            <img src={logo} alt="Logo" className="h-10 w-auto object-contain" />
           </button>
           
           {/* Mobile Menu Toggle */}

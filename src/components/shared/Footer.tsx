@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className="bg-primary-green text-bone-white border-t border-primary-green/20 relative overflow-hidden">
       {/* Decorative Brand Watermark */}
       <div className="absolute -bottom-20 -left-20 text-[20rem] font-serif text-white/5 select-none pointer-events-none uppercase tracking-tighter">
-        Lauren
+        Bernykay
       </div>
 
       <div className="max-w-[1400px] mx-auto px-6 lg:px-10 pt-24 pb-12 relative z-10">
@@ -15,7 +15,7 @@ export default function Footer() {
           
           {/* Brand Info */}
           <div data-aos="fade-up">
-            <h4 className="text-3xl font-serif mb-8 tracking-tight">Lauren <br /> <span className="italic font-light">Haute Couture</span></h4>
+            <h4 className="text-3xl font-serif mb-8 tracking-tight">Bernykay <br /> <span className="italic font-light">Stitches</span></h4>
             <p className="text-sm leading-loose text-bone-white/60 mb-10 max-w-xs font-light">
               Meticulously engineered garments for the visionary woman. Blending artisanal heritage with sustainable innovation.
             </p>
@@ -86,7 +86,7 @@ export default function Footer() {
 
         {/* Legal Bottom */}
         <div className="pt-12 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-8 text-[10px] uppercase tracking-[0.3em] font-medium text-bone-white/20">
-          <p>&copy; {currentYear} Lauren Haute Couture. Crafted with precision.</p>
+          <p>&copy; {currentYear} Bernykay Stitches. Crafted with precision.</p>
           <div className="flex gap-10">
             <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-white transition-colors">Cookies</a>

@@ -8,6 +8,7 @@ import Shop from './pages/Shop'
 import About from './pages/About'
 import Press from './pages/Press'
 import Contact from './pages/Contact'
+import Training from './pages/Training'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
 
@@ -32,6 +33,7 @@ function App() {
             <Route path="/shop" element={<Shop />} />
             <Route path="/about" element={<About />} />
             <Route path="/press" element={<Press />} />
+            <Route path="/training" element={<Training />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>

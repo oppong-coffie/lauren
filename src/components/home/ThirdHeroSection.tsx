@@ -1,4 +1,4 @@
-import hero3 from "../../assets/images/hero3.jpg"
+import hero3 from "../../assets/images/hero-image.jpeg"
 export default function ThirdHeroSection() {
   return (
     <section className="bg-white py-24 sm:py-32">

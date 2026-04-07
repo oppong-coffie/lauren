@@ -1,4 +1,4 @@
-import why from "../../assets/images/why.jpg"
+import why from "../../assets/images/why3.jpeg"
 
 export default function Why() {
   const distinguishPoints = [
@@ -35,7 +35,7 @@ export default function Why() {
 
             <h2 className="text-4xl md:text-5xl font-serif text-primary-green mb-12 leading-tight">
               Why Choose <br />
-              <span className="italic font-light">Lauren Haute Couture</span>
+              <span className="italic font-light">Berny Kay Stitches</span>
             </h2>
 
             <div className="space-y-10">
@@ -61,12 +61,12 @@ export default function Why() {
               <img
                 src={why}
                 alt="Why Lauren"
-                className="w-full h-[500px] object-cover shadow-2xl"
+                className="w-[460px] h-[530px] object-cove shadow-2xl"
               />
             </div>
 
             {/* Decorative Frame */}
-            <div className="absolute -bottom-6 -right-6 w-full h-full border border-primary-green/20"></div>
+            {/* <div className="absolute -bottom-6 -right-6 w-full h-full border border-primary-green/20"></div> */}
 
             {/* Background block */}
             <div className="absolute -top-6 -left-6 w-full h-full bg-primary-green/5 -z-10"></div>

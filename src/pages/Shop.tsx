@@ -27,7 +27,7 @@ export default function Shop() {
     </span>
 
     <h1 
-      className="text-5xl md:text-7xl font-serif text-primary-green mb-6 leading-tight"
+      className="text-5xl md:text-7xl font-serif text-primary-green mt-12 leading-tight"
       data-aos="fade-up"
       data-aos-delay="200"
     >
